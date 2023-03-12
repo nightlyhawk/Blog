@@ -1,0 +1,40 @@
+.inp
+{
+    height: 33px;
+    width: 100%;
+    margin-top: 10px;
+}
+.label{
+    color: grey;
+    font-size: 13px;
+    left: 3%;
+    position: relative;
+    top: -25px;
+    transition: all .2s ease;
+    animation-fill-mode: forwards;
+}
+
+.inp:focus ~ .label
+{
+    top: -41px;
+    left: 1%;   
+    font-size: 10px;    
+    
+}
+#pass:focus ~ #plabel
+{
+    top: -41px;
+    left: 1%;     
+    font-size: 10px;    
+}
+#inbtn
+{
+    background-color: #529eeb;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    height: 33px;
+    position: relative;
+    top: -8px;
+    width: 100%;
+}
